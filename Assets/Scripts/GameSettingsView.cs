@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 using UnityEngine.UI;
 
 namespace FoxC
 {
-    public class GameSettingsView : MonoBehaviour
+    public class GameSettingsView : WindowView
     {
+        public Action OnPlayButtonClick = delegate { };
+
         [SerializeField]
         private TextMeshProUGUI _playersCounter;
 
@@ -32,8 +35,9 @@ namespace FoxC
         private int _players;
         private int _spys;
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _plusPlayer.onClick.AddListener(() => SetPlayers(1));
             _minusPlayer.onClick.AddListener(() => SetPlayers(-1));
 

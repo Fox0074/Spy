@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C3C793A2-EDC9-0D69-7716-E247F2586BC4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LobbyController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/LobbyController.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/ButtonsView.cs" Line="11" Column="35" />
+      <File FileName="Assets/Scripts/WindowView.cs" Line="7" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Spy" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="da7b5988-2c19-4602-8566-c1b9a3b7cfae" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

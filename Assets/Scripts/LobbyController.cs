@@ -15,6 +15,19 @@ namespace FoxC
         private void Awake()
         {
             Player.Current = new Player();
+            _buttonsView.OnPlayButtonClick += OnButtonPlayClick;
+        }
+
+        private void OnButtonPlayClick()
+        {
+            _buttonsView.Hide(() => _buttonsView.gameObject.SetActive(false));
+            _gameSettingsView.gameObject.SetActive(true);
+            _gameSettingsView.Show();
+        }
+
+        private void OnGameStartButtonClick()
+        {
+           
         }
     }
 }
